@@ -1,8 +1,12 @@
 # JoinDateIntervals
 this is a basic java class that Join Date Intervals
 
+# Credits
+
+Gets inspiration from <http://sametmax.com/union-dun-ensemble-dintervalles/>
+
 # Usage
 
-<pre><code>List<Date> datesDebut = new ArrayList<Date>();<br>
-List<Date> datesFin = new ArrayList<Date>();<br>
+<pre><code>List<Date> datesDebut = new ArrayList<Date>();
+List<Date> datesFin = new ArrayList<Date>();
 List<Range<Date>> ranges = JoinIntervals.joinDateIntervals(datesDebut, datesFin);</code></pre>
