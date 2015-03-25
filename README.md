@@ -10,5 +10,10 @@ Gets inspiration from <http://sametmax.com/union-dun-ensemble-dintervalles/>
 ```
 List<Date> datesDebut = new ArrayList<Date>();
 List<Date> datesFin = new ArrayList<Date>();
+/*
+* populates the dates lists here
+*/
 List<Range<Date>> ranges = JoinIntervals.joinDateIntervals(datesDebut, datesFin);
 ```
+
+returns a collection of com.google.common.collect.Range objects
