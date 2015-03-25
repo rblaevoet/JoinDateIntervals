@@ -7,6 +7,8 @@ Gets inspiration from <http://sametmax.com/union-dun-ensemble-dintervalles/>
 
 # Usage
 
-<pre><code>List<Date> datesDebut = new ArrayList<Date>();
+```
+List<Date> datesDebut = new ArrayList<Date>();
 List<Date> datesFin = new ArrayList<Date>();
-List<Range<Date>> ranges = JoinIntervals.joinDateIntervals(datesDebut, datesFin);</code></pre>
+List<Range<Date>> ranges = JoinIntervals.joinDateIntervals(datesDebut, datesFin);
+```
